@@ -1,3 +1,19 @@
-##HTML+CSS
+## HTML+CSS
 
-1.star
+
+
+### 1.star
+
+简单介绍：
+
+首先从font-awesome图标库引入star图标，创建input标签与label标签；
+
+然后把input标签设置为display:none，为label标签添加before伪类，写为黑色star的样式；
+
+再为label标签添加after伪类，写为蓝色star的样式；
+
+最后，添加star被hover，checked时的样式变化。 
+
+### 2.login
+
+使用jquery.vide来实现把视频作为背景，其中我的代码并没有实现，目前还不了解原因。
