@@ -29,3 +29,7 @@
 ### 4.search
 
 标签：section，select，option
+
+### 5. 3D Touch SwipeSlider
+
+引入swiper来实现轮播切换
