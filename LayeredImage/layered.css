@@ -13,7 +13,7 @@ body {
   width: 360px;
   height: 640px;
   margin-top: 150px;
-  background: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, .1);
   transform: rotate(-30deg) skew(25deg) scale(.8);
   transition: .5s;
 }
