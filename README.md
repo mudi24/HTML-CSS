@@ -30,6 +30,10 @@
 
 标签：section，select，option
 
-### 5. 3D Touch SwipeSlider
+### 5. 3D Touch SwipeSlider（3D卡片滑块）
 
 引入swiper来实现轮播切换
+
+### 6.Layered Image Hover Effects（3D分层图像悬停效果）
+
+关键词：transform，transition，tranlate，rotate
