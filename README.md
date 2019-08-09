@@ -17,3 +17,15 @@
 ### 2.login
 
 使用jquery.vide来实现把视频作为背景，其中我的代码并没有实现，目前还不了解原因。
+
+### 3.share
+
+还是从font-awesome图标库中引入图标，这里引入的是facebook，twitter，google-plus，linkedin，instagram的图标，
+
+其中的使用的伪类：:before，:hover，:nth-child
+
+*transition-delay*: 1s	1s后效果开始执行
+
+### 4.search
+
+标签：section，select，option

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background: #cccccc;
+}
+
+.search {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  padding: 20px 0 20px 60px;
+  min-height: 60px;
+  width: 80%;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.search .icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 30px;
+  color: #adadad;
+}
+
+.search .row {
+  display: flex;
+}
+
+.search .row .option {
+  flex: 1;
+  position: relative;
+  padding: 0;
+  border-right: 1px solid #ccc;
+}
+
+.search .row .option select {
+  position: relative;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  color: #848484;
+  padding: 10px 20px;
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+.search .row .option:before {
+  content: '\f107';
+  font-family: fontAwesome;
+  position: absolute;
+  color: #848484;
+  right: 10px;
+  top: 15px;
+  font-size: 20px;
+}
+
+.search .row .option:last-child:before {
+  display: none;
+}
+
+.search .row .option:last-child {
+  padding: 0 20px;
+  border-right: none;
+  box-sizing: border-box;
+}
+
+.search .row .option input[type="submit"] {
+  border: none;
+  background: #23cbff;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 24px;
+}
+
+.search .row .option input[type="submit"]:hover {
+  background: #ff2368;
+}
