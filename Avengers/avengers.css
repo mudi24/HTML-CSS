@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  background: #000;
+}
+
+section .screen {
+  position: relative;
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
+  transition: 1s;
+}
+
+section:hover .screen {
+  opacity: 0.1;
+}
+
+section .screen:hover {
+  flex-grow: 5;
+  opacity: 1;
+}
+
+section .screen:nth-child(1) {
+  background: url(./img1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section .screen:nth-child(2) {
+  background: url(./img2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section .screen:nth-child(3) {
+  background: url(./img3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section .screen .content {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  background: #ffffff;
+  padding: 40px;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  transition: .5s;
+  text-align: justify;
+}
+
+section .screen:hover .content {
+  transform: translateX(0);
+  transition-delay: 1s;
+}
+
+section .screen .content h2 {
+  margin: 0;
+  padding: 0;
+  /* text-transform: uppercase; */
+  font-size: 30px;
+  color: #ed363a;
+}
+
+section .screen .content p {
+  margin: 0;
+  padding: 0;
+}
