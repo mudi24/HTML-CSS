@@ -43,3 +43,7 @@
 ​	1.关键词：transform，transform，transform
 
 ​	2.关键词：flex，nth-child，transition
+
+### 8.Navigation Partition
+
+​	关键词：:before，:target
