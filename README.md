@@ -55,3 +55,7 @@
 ### 10.Responsive Price Web Page
 
 ​	响应式价格网页
+
+### 11.Person Introduction
+
+​	人物介绍自适应页面
