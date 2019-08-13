@@ -59,3 +59,7 @@
 ### 11.Person Introduction
 
 ​	人物介绍自适应页面
+
+### 12.Icon Rotate
+
+​	悬浮时图标旋转效果
