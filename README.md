@@ -63,3 +63,9 @@
 ### 12.Icon Rotate
 
 ​	悬浮时图标旋转效果
+
+​	关键词：::before，::after，@keyframes
+
+### 13.Wave Loading
+
+​	关键词：animation，animatin-delay
