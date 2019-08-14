@@ -32,7 +32,7 @@
 
 ### 5. 3D Touch SwipeSlider（3D卡片滑块）
 
-​	引入swiper来实现轮播切换
+​	引入jQuery的swiper插件来实现轮播切换
 
 ### 6.Layered Image Hover Effects（3D分层图像悬停效果）
 
@@ -73,3 +73,7 @@
 ### 14.Contact Form
 
 ​	联系我们表单
+
+### 15.Image Gallery Design
+
+​	引用jQuery的lightbox来实现图片展示的过渡效果
