@@ -77,3 +77,8 @@
 ### 15.Image Gallery Design
 
 ​	引用jQuery的lightbox来实现图片展示的过渡效果
+
+### 16.Mi Shopping Mall
+
+​	小米商城
+
