@@ -78,30 +78,72 @@ body {
   width: 850px;
 }
 
-.header .site-list ul {
+.header .site-list>ul {
   width: 820px;
   height: 88px;
   padding: 12px 0 0 30px;
   font-size: 16px;
 }
 
-.header .site-list ul li {
+.header .site-list>ul>li {
   float: left;
 }
 
-.header .site-list ul li a {
+.header .site-list>ul>li>a {
   display: block;
   padding: 26px 10px 38px;
   color: #333;
 }
 
-.header .site-list ul li a:hover {
+.header .site-list>ul>li>a:hover {
   color: #ff6700;
 }
 
-/* .header .site-list ul .site-category a {
-  padding: 0;
-} */
+.header .site-list>ul .site-category {
+  position: relative;
+  z-index: 3;
+}
+
+.header .site-list>ul .site-category .category-list {
+  position: absolute;
+  top: 88px;
+  left: -92px;
+  width: 234px;
+  height: 460px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.category-list>ul {
+  width: 234px;
+  height: 420px;
+  padding: 20px 0;
+}
+
+.category-list>ul>li {
+  height: 42px;
+}
+
+.category-list>ul>li>a {
+  padding-left: 30px;
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+}
+
+.category-list>ul>li>a:hover {
+  background-color: #ff6700;
+}
+
+.category-list>ul>li>a>span {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
 
 .header .site-search {
   float: right;
@@ -152,4 +194,68 @@ body {
 .header .site-search form .search-word a:hover {
   background-color: #ff6700;
   color: #fff;
+}
+
+/* 内容区 */
+.site-content .site-slider {
+  position: relative;
+  z-index: 2;
+}
+
+.site-content .site-slider>a {
+  display: block;
+}
+
+.site-content .site-slider>a img {
+  width: 1226px;
+}
+
+.site-content .site-slider>span {
+
+  width: 41px;
+  height: 69px;
+}
+
+.site-content .site-slider .next {
+  position: absolute;
+  top: 14em;
+  right: 0;
+  opacity: .7;
+  background: url(../images/next1.png) no-repeat;
+}
+
+.site-content .site-slider .next:hover {
+  opacity: 1;
+}
+
+.site-content .site-slider .prev {
+  position: absolute;
+  top: 14em;
+  left: 236px;
+  opacity: .7;
+  background: url(../images/prev1.png) no-repeat;
+}
+
+.site-content .site-slider .prev:hover {
+  opacity: 1;
+}
+
+.site-content .slider-item {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+}
+
+.site-content .slider-item a {
+  display: inline-block;
+  margin: 0 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, .4);
+  border: 2px solid rgba(255, 255, 255, .3);
 }
