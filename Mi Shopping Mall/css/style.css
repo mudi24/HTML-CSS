@@ -264,6 +264,7 @@ body {
 /* 向导 */
 .content-sub {
   margin-top: 18px;
+  overflow: hidden;
 }
 
 .content-sub .content-channel {
@@ -319,6 +320,21 @@ body {
   height: 170px;
 }
 
+/* 向导下方横幅 */
+.content-banner {
+  margin-top: 18px;
+}
+
+.content-banner a {
+  display: block;
+  width: 1226px;
+  height: 120px;
+}
+
+.content-banner a img {
+  width: 1226px;
+  height: 120px;
+}
 
 /* 小米站点内容 */
 
