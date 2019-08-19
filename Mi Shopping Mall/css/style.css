@@ -479,6 +479,93 @@ body {
   margin-left: -32px;
 }
 
+/* 底部 */
+.footer .footer-service {
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.footer .footer-service ul li {
+  float: left;
+  width: 19.8%;
+  height: 25px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+}
+
+.footer .footer-service ul li.first {
+  border-left: 0;
+}
+
+.footer .footer-service ul li a {
+  color: #616161;
+}
+
+.footer .footer-service ul li .iconfont {
+  font-size: 24px;
+  margin-right: 6px;
+  line-height: 24px;
+  vertical-align: -2px;
+}
+
+.footer .footer-links {
+  padding: 40px 0;
+}
+
+.footer .footer-links dl {
+  float: left;
+  width: 160px;
+  height: 112px;
+}
+
+.footer .footer-links dl dt {
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: #242424;
+}
+
+.footer .footer-links dl dd {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #757575
+}
+
+.footer .footer-links .col-contact {
+  float: right;
+  width: 251px;
+  height: 112px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.footer .footer-links .col-contact .iphone {
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: #ff6700;
+
+}
+
+.footer .footer-links .col-contact p {
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.footer .footer-links .col-contact a {
+  display: inline-block;
+  width: 118px;
+  height: 28px;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  font-size: 12px;
+}
+
+.footer .footer-links .col-contact a:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+
 /* 清除浮动 */
 .clearfix::after {
   content: '';
