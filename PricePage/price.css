@@ -68,6 +68,11 @@ body {
   transition: .5s linear;
 }
 
+.table a:hover {
+  background: #2c3e50;
+  color: #ffffff;
+}
+
 .pop {
   background: #2c3e50;
   color: #ffffff;
